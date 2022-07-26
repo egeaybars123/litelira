@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: bitcoind.service
-Upstart: bitcoind.conf
-OpenRC:  bitcoind.openrc
-         bitcoind.openrcconf
-CentOS:  bitcoind.init
-macOS:    org.bitcoin.bitcoind.plist
+SystemD: litelirad.service
+Upstart: litelirad.conf
+OpenRC:  litelirad.openrc
+         litelirad.openrcconf
+CentOS:  litelirad.init
+macOS:    org.litelira.litelirad.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

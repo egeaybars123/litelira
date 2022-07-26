@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-# Copyright (c) 2018 The Bitcoin Core developers
+# Copyright (c) 2018 The LiteLira Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test for the ZMQ RPC methods."""
 
 from test_framework.test_framework import (
-    BitcoinTestFramework, skip_if_no_py3_zmq, skip_if_no_bitcoind_zmq)
+    LiteLiraTestFramework, skip_if_no_py3_zmq, skip_if_no_litelirad_zmq)
 from test_framework.util import assert_equal
 
 
-class RPCZMQTest(BitcoinTestFramework):
+class RPCZMQTest(LiteLiraTestFramework):
 
     address = "tcp://127.0.0.1:28332"
 
@@ -19,7 +19,7 @@ class RPCZMQTest(BitcoinTestFramework):
 
     def run_test(self):
         skip_if_no_py3_zmq()
-        skip_if_no_bitcoind_zmq(self)
+        skip_if_no_litelirad_zmq(self)
         self._test_getzmqnotifications()
 
     def _test_getzmqnotifications(self):

@@ -1,7 +1,7 @@
-Win32, Linux, MacOSX and source releases for bitcoin v0.3.23 have been uploaded to
-https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.23/
+Win32, Linux, MacOSX and source releases for litelira v0.3.23 have been uploaded to
+https://sourceforge.net/projects/litelira/files/LiteLira/litelira-0.3.23/
 
-This is another quick bugfix release, trying to deal with the influx of new bitcoin users.
+This is another quick bugfix release, trying to deal with the influx of new litelira users.
 
 Main items of note:
 
